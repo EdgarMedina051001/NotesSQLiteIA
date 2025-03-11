@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesSQLite" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/orange</item>
+         <item name="colorPrimaryVariant">#BC6010</item>
+         <item name="android:statusBarColor">@color/orange</item>
+
+        <!-- Evita que los iconos se pongan en negro sobre la Status Bar -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.NotesSQLite" parent="Base.Theme.NotesSQLite" />
+
+    <style name="TextInputOuterFieldTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInputInnerFieldTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorPrimary">@color/orange</item>
+    </style>
+
+    <style name="ModalBottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <!-- Habilitar el Drag Handle -->
+        <item name="android:background">@color/white</item>
+        <item name="behavior_draggable">true</item> <!-- Permitir arrastrar -->
+        <item name="behavior_hideable">true</item> <!-- Permitir ocultarlo arrastrando hacia abajo -->
+        <item name="bottomSheetDragHandleStyle">@style/BottomSheetDragHandle</item>
+    </style>
+
+    <!-- Estilo del Drag Handle -->
+    <style name="BottomSheetDragHandle" parent="Widget.Material3.BottomSheet.DragHandle">
+        <item name="android:color">@color/black</item> <!-- Color del handle -->
+    </style>
+
+</resources>

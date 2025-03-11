@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F57F17</color>
+    <color name="yellow">#FDD835</color>
+
+    <!-- Colores muy claros, ideales para fondos de pantalla o tarjetas -->
+    <color name="yellow_background_light">#FFFDE7</color> <!-- Fondo muy suave -->
+    <color name="yellow_background_secondary">#FFF9C4</color> <!-- Fondo de secciones secundarias -->
+
+    <!-- Colores intermedios, útiles para elementos destacados y contornos -->
+    <color name="yellow_border">#FFF59D</color> <!-- Botones deshabilitados, bordes -->
+    <color name="yellow_hover">#FFEE58</color> <!-- Hover en botones, realces suaves -->
+    <color name="yellow_card">#FFEB3B</color> <!-- Botones primarios, tarjetas elevadas -->
+
+    <!-- Color principal para botones y elementos interactivos -->
+    <color name="orange_primary">#FF9800</color> <!-- Color principal de la app, botones activos -->
+
+    <!-- Tonos más oscuros para títulos, iconos y resaltes -->
+    <color name="orange_text_highlight">#FB8C00</color> <!-- Resaltado de texto, íconos -->
+    <color name="orange_text_primary">#F57C00</color> <!-- Texto en botones primarios -->
+
+    <!-- Colores muy oscuros, ideales para fondos de barras de navegación o énfasis -->
+    <color name="orange_navbar">#E65100</color> <!-- Encabezados, fondo de barra de navegación -->
+    <color name="orange_text_dark">#BF360C</color> <!-- Texto en temas oscuros, contrastes fuertes -->
+
+    <!-- Colores neutros para soporte -->
+    <color name="gray_400">#BDBDBD</color> <!-- Bordes, detalles sutiles -->
+    <color name="gray_600">#757575</color> <!-- Color de texto en temas oscuros, contrastes fuertes -->
+
+</resources>
