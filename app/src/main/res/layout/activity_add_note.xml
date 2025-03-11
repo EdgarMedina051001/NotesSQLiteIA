@@ -82,8 +82,7 @@
             android:layout_below="@+id/title_til"
             android:layout_marginTop="6dp"
             android:hint="Escribe tu nota..."
-            app:boxStrokeColor="@color/custom_color_navigation"
-            app:endIconMode="clear_text"
+            app:boxStrokeWidth="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent">
@@ -96,7 +95,10 @@
                 android:drawablePadding="5dp"
                 android:drawableTint="@color/orange"
                 android:gravity="top"
-                android:inputType="textLongMessage" />
+                android:inputType="textMultiLine"
+                android:imeOptions="actionNext"
+                android:minLines="3"
+                android:maxLines="10"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
