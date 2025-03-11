@@ -40,7 +40,7 @@ class GeminiActivity : AppCompatActivity() {
         textView.setTextIsSelectable(true)
         val generativeModel = GenerativeModel(
             modelName = "gemini-2.0-flash",
-            apiKey = "AIzaSyCYlJhiVWxrkFbg46H7-y3_sOtBmluA1X8",
+            apiKey = "",
         )
 
         val prompt = binding.promptTiet.text.toString()
