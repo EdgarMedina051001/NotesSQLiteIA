@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.secretsGradlePlugin)
 }
 
 android {
@@ -35,6 +36,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -54,5 +56,7 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
     //IA
     implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
+    //Secrets
+    implementation("com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1")
 
 }
