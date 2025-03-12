@@ -40,13 +40,13 @@ class GeminiActivity : AppCompatActivity() {
         textView.setTextIsSelectable(true)
         val generativeModel = GenerativeModel(
             modelName = "gemini-2.0-flash",
-            apiKey = "",
+            apiKey = BuildConfig.GEMINI_API_KEY,
         )
 
         val prompt = binding.promptTiet.text.toString()
         MainScope().launch {
             val response = generativeModel.generateContent(prompt)
-            textView.setText(response.text)
+            textView.text = response.text
             binding.progressBar.visibility = View.GONE
         }
     }

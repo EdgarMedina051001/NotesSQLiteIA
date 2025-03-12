@@ -98,7 +98,7 @@
                 android:inputType="textMultiLine"
                 android:imeOptions="actionNext"
                 android:minLines="3"
-                android:maxLines="10"/>
+                android:maxLines="30"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
