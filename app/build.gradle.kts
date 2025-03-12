@@ -51,7 +51,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     //Gif
-    implementation ("com.felipecsl:gifimageview:2.2.0")
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.19")
     //Material
     implementation("com.google.android.material:material:1.9.0")
     //IA

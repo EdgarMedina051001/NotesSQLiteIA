@@ -27,7 +27,7 @@ class NotesAdapter(private var notes: List<Note>, context: Context) :
 
         //Obtenemos el ImageView de la vista
         val deleteBtn: ImageView = itemView.findViewById(R.id.delete_btn)
-        val editBtn: ImageView = itemView.findViewById(R.id.edit_btn)
+        val linearLayout: View = itemView.findViewById(R.id.linearLayout)
     }
 
     //Creamos el metodo onCreateViewHolder para crear los elementos de la vista
@@ -55,7 +55,7 @@ class NotesAdapter(private var notes: List<Note>, context: Context) :
         holder.contentTv.text = currentNote.content
 
         //Asignamos los eventos de clic a los botones de eliminar y editar
-        holder.editBtn.setOnClickListener {
+        holder.linearLayout.setOnClickListener {
             //Editar la nota seleccionada
             val intent = Intent(holder.itemView.context, UpdateNoteActivity::class.java).apply {
                 putExtra("note_id", currentNote.id)

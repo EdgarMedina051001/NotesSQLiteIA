@@ -3,12 +3,9 @@ package com.edgarmedina.notessqlite
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.edgarmedina.notessqlite.databinding.ActivityGeminiBinding
 import com.google.ai.client.generativeai.GenerativeModel
 import kotlinx.coroutines.MainScope
